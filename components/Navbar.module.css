@@ -1,0 +1,28 @@
+/* src/components/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Add some padding */
+    background-color: #0070f3; /* Navbar background color */
+    color: white; /* Text color */
+  }
+  
+  .links {
+    display: flex;
+    gap: 15px; /* Space between links */
+  }
+  
+  .links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px 10px; /* Add padding to links */
+    border-radius: 5px; /* Round the edges of links */
+    transition: background-color 0.2s; /* Smooth background transition */
+  }
+  
+  .links a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effect for links */
+  }
+
+  

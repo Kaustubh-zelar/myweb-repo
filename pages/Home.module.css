@@ -1,0 +1,8 @@
+/* src/pages/Home.module.css */
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center products */
+  gap: 20px; /* Space between cards */
+  padding: 20px; /* Add some padding around the product list */
+}

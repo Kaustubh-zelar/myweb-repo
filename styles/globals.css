@@ -1,0 +1,28 @@
+/* styles/globals.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background color */
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center products */
+  gap: 20px; /* Space between cards */
+  padding: 20px; /* Add some padding around the product list */
+}
